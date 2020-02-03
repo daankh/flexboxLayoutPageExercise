@@ -1,0 +1,10 @@
+.article-list {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__article {
+    flex-basis: 30%;
+  }
+}

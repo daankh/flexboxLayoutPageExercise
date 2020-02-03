@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+  background-color: $main-color;
+  font-family: $default-font;
+}
+
+.wrapper {
+  //pozycja
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100vh;
+
+  //wyglad
+  background-color: #fff;
+  font-size: 2rem;
+  box-shadow: 0 0 4px #000;
+
+  // kontener
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
