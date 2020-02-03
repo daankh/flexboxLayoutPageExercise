@@ -234,9 +234,16 @@ html {
   letter-spacing: 2px;
 }
 
-.main-articles__article {
+.main-articles .article {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+}
+
+@media (max-width: 799px) {
+  .main-articles .article {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
 }
 
 .article-list {
@@ -254,6 +261,20 @@ html {
 .article-list__article {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
+}
+
+@media (max-width: 1023px) {
+  .article-list__article {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+
+@media (max-width: 799px) {
+  .article-list__article {
+    -ms-flex-preferred-size: 95%;
+        flex-basis: 95%;
+  }
 }
 
 .footer {

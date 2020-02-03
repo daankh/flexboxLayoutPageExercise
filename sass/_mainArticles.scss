@@ -16,7 +16,10 @@
     letter-spacing: 2px;
   }
 
-  &__article {
+  .article {
     flex-basis: 50%;
+    @media (max-width: 799px) {
+      flex-basis: 100%;
+    }
   }
 }
